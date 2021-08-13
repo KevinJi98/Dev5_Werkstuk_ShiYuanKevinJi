@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="src/server.js"></script>
+    <script type="module" src="src2/display.js"></script>
     <title>Document</title>
 </head>
-
 <body>
     <form>
-        <h1>Logs</h1>
-        <!--Logs met Datum, activiteit, duur en beschrijving-->
-        <input type="text" placeholder="Date"><br>
-        <input type="text" placeholder="Activity"><br>
-        <input type="text" placeholder="Duration"><br>
-        <input type="text" placeholder="Description"><br>
-        <button>Add log</button>
+        <h1>Daily logs</h1>
+        <input id="activity" type="text" placeholder="Activity title"><br>
+        <input id="duration" type="number" placeholder="Duration of activity"><br>
+        <input id="description" type="text" placeholder="Description of activity"><br>
+        <button id="push">Add log</button>
     </form>
-    <div id="agenda">
+    <div id="logs">
+
+    </div>
+    <div id="categoriesprint">
 
     </div>
 </body>
-
 </html>
