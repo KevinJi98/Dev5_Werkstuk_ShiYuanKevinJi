@@ -1,11 +1,32 @@
-form input,form button{
+body {
+    width: 40%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input,
+form button {
     padding: 5px;
     margin: 10px 0;
 }
-form{
-    margin: 50px 0;
+
+form {
+    margin: 0px 0;
 }
-body{
-    width: 90%;
-    margin: auto;
+
+section{
+    margin-top: 50px;
+}
+.addlog {
+    float: left;
+}
+
+#categoriesprint {
+    float: right;
+    margin-bottom: 50px;
+
+}
+
+#logs {
+    clear: both;
 }

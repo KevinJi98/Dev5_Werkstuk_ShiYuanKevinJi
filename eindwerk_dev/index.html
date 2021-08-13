@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +9,26 @@
     <script type="module" src="src2/display.js"></script>
     <title>Document</title>
 </head>
+
 <body>
-    <form>
-        <h1>Daily logs</h1>
-        <input id="activity" type="text" placeholder="Activity title"><br>
-        <input id="duration" type="number" placeholder="Duration of activity"><br>
-        <input id="description" type="text" placeholder="Description of activity"><br>
-        <button id="push">Add log</button>
-    </form>
+    <section>
+        <div class="addlog">
+            <form>
+                <h1>Daily logs</h1>
+                <input id="activity" type="text" placeholder="Activity title"><br>
+                <input id="duration" type="number" placeholder="Duration of activity"><br>
+                <input id="description" type="text" placeholder="Description of activity"><br>
+                <button id="push">Add log</button>
+            </form>
+        </div>
+        <div id="categoriesprint">
+        </div>
+    </section>
+    
     <div id="logs">
 
     </div>
-    <div id="categoriesprint">
 
-    </div>
 </body>
+
 </html>

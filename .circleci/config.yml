@@ -5,13 +5,16 @@ orbs:
 
 jobs:
    build-and-test:
+   working_directory: ~/Dev5_Werkstuk_ShiYuanKevinJi
     docker:
       - image: cimg/node:15.1
     steps:
       - checkout
       - node/install-packages
-      - run: cd eindwerk_dev
-      - run: npm test
+      - run: cd eindwerk_dev/package.json
+       name: run test
+      command: npm test
+
 
 workflows:
   sample: 
