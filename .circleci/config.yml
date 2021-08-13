@@ -10,9 +10,7 @@ jobs:
     steps:
       - checkout
       - node/install-packages
-      - run: cd eindwerk_dev/
-          name: Run test
-          command: npm test
+      - run: cd eindwerk_dev && npm run test
 
 workflows:
   sample: 
