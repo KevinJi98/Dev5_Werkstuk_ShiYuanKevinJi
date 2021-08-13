@@ -10,7 +10,7 @@ jobs:
     steps:
       - checkout
       - node/install-packages
-      - run:
+      - run: cd eindwerk_dev
           name: Run tests
           command: npm test
 
