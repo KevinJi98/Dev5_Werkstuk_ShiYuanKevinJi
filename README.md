@@ -6,7 +6,7 @@
 2. Install Node using npm install
 3. Install docker and start docker-compose
 4. Create container and images using --> docker-compose up --build -d
-5. Create image in docker --> docker pull postgres:12-alpine
+5. Create image     in docker --> docker pull postgres:12-alpine
 6. Start server using --> nodemon server.js
 
 
