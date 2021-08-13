@@ -1,3 +1,5 @@
+//In commentaar omdat het niet getest wordt
+
 /*
 const request = require('supertest')
 const router = require('../src2/server.js')

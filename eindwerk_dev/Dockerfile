@@ -4,4 +4,4 @@ COPY . .
 
 RUN npm install
 
-CMD node src/index.js
+CMD node src2/server.js
